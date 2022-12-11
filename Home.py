@@ -27,7 +27,7 @@ if LOGGED_IN != True:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 if LOGGED_IN == True:
-    print(__login__obj)
+    # print(__login__obj)
 
     # bot = TelegramBot(st.secrets['telegram_bot_token'], st.secrets['telegram_bot_chat'])
     # _ = bot.send_text("test")
@@ -37,18 +37,19 @@ if LOGGED_IN == True:
     # st.markdown(html_string, unsafe_allow_html=True)
 
 
-    with open('_secret_auth_.json') as f:
-        asd = f.read()
-        st.markdown("<pre>"+asd+"</pre>", unsafe_allow_html=True)
-        print(asd)
+    # with open('_secret_auth_.json') as f:
+    #     asd = f.read()
+    #     st.markdown("<pre>"+asd+"</pre>", unsafe_allow_html=True)
+    #     print(asd)
 
-    import os
-    print(os.listdir())
-    st.markdown("<pre>"+"<br/>".join(os.listdir())+"</pre>", unsafe_allow_html=True)
+    # import os
+    # print(os.listdir())
+    # st.markdown("<pre>"+"<br/>".join(os.listdir())+"</pre>", unsafe_allow_html=True)
 
-    html_string = "<i>markup for gtm</i>"
-    st.markdown(html_string, unsafe_allow_html=True)
-
+    # html_string = "<i>markup for gtm</i>"
+    # st.markdown(html_string, unsafe_allow_html=True)
+    
+    st.markdown("hello world", unsafe_allow_html=True)
 try:
     url = st.experimental_get_query_params()
     captured_value = url['get_data'][0]
