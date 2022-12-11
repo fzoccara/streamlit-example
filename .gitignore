@@ -167,6 +167,6 @@ cython_debug/
 
 #my ignores
 key.py
-secrets.toml
+secrets_.toml
 
 .streamlit/secrets.toml
