@@ -8,5 +8,4 @@ streamlit==1.13.0
 streamlit-login-auth-ui==0.2.0
 argon2-cffi==21.3.0
 yfinance==0.1.74
-
-bob-telegram-tools==1.1.0
+#bob-telegram-tools==1.1.0

@@ -30,8 +30,7 @@ __login__obj = __login__(auth_token = st.secrets['courier_auth_token'],
 LOGGED_IN = __login__obj.build_login_ui()
 
 if LOGGED_IN != True:
-    with open('style4.css') as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+    pass
 
 if LOGGED_IN == True:
-    st.title('Net Liquidity vs S&P 500')
+    st.title('Internal page test')
