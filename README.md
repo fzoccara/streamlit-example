@@ -1,6 +1,21 @@
-# Welcome to Streamlit!
+### Start project 
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire. :heart:
+Create new virtual env
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+`python3 -m venv venv`
+
+Enable the virtual env
+
+`source venv/bin/activate`
+
+Install requirements from requirements.txt
+
+`pip install --extra-index-url https://pypi.fury.io/arrow-nightlies/ --prefer-binary --pre pyarrow`
+
+`pip install --no-cache-dir -r requirements.txt`
+
+Exit virtual environment
+
+`deactivate`
+
+Set Jupyter to use virtual env kernel instead of default one
