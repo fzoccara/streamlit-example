@@ -6,13 +6,13 @@ from functions import show_download_Json
 from bob_telegram_tools.bot import TelegramBot
 
 st.set_page_config(
-    page_title = 'Liscivia\'s Indicator Suite',
+    page_title = 'fzoccara test',
     page_icon = '📈',
     layout = 'centered'
 )
 
 __login__obj = __login__(auth_token = st.secrets['courier_auth_token'], 
-                    company_name = "The Suite",
+                    company_name = "test",
                     width = 200, height = 250, 
                     logout_button_name = 'Logout',
                     hide_menu_bool = False, 

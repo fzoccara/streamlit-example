@@ -14,13 +14,13 @@ from functions import st_button, load_css
 
 ####################################################################################
 st.set_page_config(
-    page_title = 'Net Liquidity',
+    page_title = 'test',
     page_icon = '📊',
     layout = 'wide'
 )
 
 __login__obj = __login__(auth_token = st.secrets['courier_auth_token'], 
-                    company_name = "The Suite",
+                    company_name = "test",
                     width = 200, height = 250, 
                     logout_button_name = 'Logout',
                     hide_menu_bool = False, 
