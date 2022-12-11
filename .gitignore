@@ -170,4 +170,3 @@ key.py
 secrets.toml
 
 .streamlit/secrets.toml
-.streamlit/config.toml
